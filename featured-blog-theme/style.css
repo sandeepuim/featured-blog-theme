@@ -1,0 +1,97 @@
+/*
+Theme Name: Featured Blog Bootstrap Theme
+Theme URI: https://example.com/featured-blog-bootstrap-theme
+Author: Sandip Sahu
+Author URI: https://google.com
+Description: A custom WordPress theme with a featured blog layout using Bootstrap 5.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: featured-blog-bootstrap-theme
+*/
+
+/* Custom Styles Below */
+.featured-blog-item {
+    margin-bottom: 30px;
+}
+
+.featured-blog-item img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-blog-item h2 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.featured-blog-item p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+/* Single Post Styles */
+.post-thumbnail {
+    margin-bottom: 1.5rem; /* Space between image and content */
+    overflow: hidden; /* Hide any overflow from image */
+}
+
+/* Full-width featured image with controlled height */
+.post-thumbnail img {
+    width: 100%; /* Full-width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Set a maximum height for the image */
+    object-fit: cover; /* Cover to prevent distortion */
+    border-radius: 0.25rem; /* Rounded corners */
+}
+
+/* Post Content */
+.post-content {
+    line-height: 1.8; /* Better readability */
+    font-size: 1rem; /* Base font size */
+    margin-bottom: 2rem; /* Space below content */
+}
+
+/* Post Author */
+.post-author {
+    background-color: #f8f9fa; /* Light background for author section */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Comments Section */
+.comments-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 2px solid #007bff; /* Blue top border */
+}
+
+.comment-form {
+    margin-top: 1.5rem;
+}
+
+/* Comment Styles */
+.comment {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-meta {
+    font-size: 0.9rem;
+    color: #6c757d; /* Muted text for date */
+}
